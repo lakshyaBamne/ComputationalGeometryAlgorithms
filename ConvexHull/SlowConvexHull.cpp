@@ -35,9 +35,11 @@ void SlowConvexHull::show_output(){
 
 void SlowConvexHull::read_input(){
     string filename;
-    cout << "-----------------------INPUT-------------------------" << endl;
-    cout << "Input file name (TXT): " << endl;
-    cin >> filename;
+    // cout << "-----------------------INPUT-------------------------" << endl;
+    // cout << "Input file name (TXT): " << endl;
+    // cin >> filename;
+
+    filename = "data.txt";
 
     // open the given file
     ifstream fin;

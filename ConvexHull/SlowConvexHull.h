@@ -36,6 +36,9 @@ public:
     void get_hull(vector< vector<pair<int,int>> > hull_edges);
 
     // Function to write output into a file named hull.txt
-    void write_output();
+    void write_output(string filename);
+
+    // Function to generate n points in the square of side len (up-ll)
+    void generate_random_data(int ll, int up, int n);
 };
 

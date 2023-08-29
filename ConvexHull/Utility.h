@@ -7,6 +7,9 @@
 #include<vector>
 #include<utility>
 #include<cmath>
+#include<fstream>
+#include<set>
+#include<sstream>
 
 using namespace std;
 
@@ -22,6 +25,8 @@ namespace Utility{
 
     // Function to find the distance between two points
     int distance(pair<int,int>& p1, pair<int,int>& p2);
+
+
 }
 
 int Utility::find_orientation(pair<int,int>& A, pair<int,int>& B, pair<int,int>& C){
@@ -55,3 +60,5 @@ vector< pair<int,int> > Utility::generate_rays(int size){
 int Utility::distance(pair<int,int>& p1, pair<int,int>& p2){
     return (p2.first-p1.first)*(p2.first-p1.first) + (p2.second-p1.second)*(p2.second-p1.second);
 }
+
+

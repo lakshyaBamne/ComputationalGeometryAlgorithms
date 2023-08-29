@@ -39,7 +39,7 @@ def animate_hull(data, hull):
     x=[]
     y=[]
 
-    fig, ax = plt.subplots( figsize=(5,5) )
+    fig, ax = plt.subplots( figsize=(10,10) )
 
     # plot data points statically
     ax.scatter(xdata,ydata,marker='.', color='g')
